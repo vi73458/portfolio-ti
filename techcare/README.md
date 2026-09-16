@@ -1,17 +1,31 @@
 # TechCare
 
-MVP de gestão de assistência técnica e equipamentos.
+Sistema de assistência técnica e gestão de reparos de equipamentos.
 
-## Funcionalidades planejadas
+> Projeto independente de portfólio, inspirado em necessidades comuns de suporte técnico e pós-venda. Não possui vínculo oficial com nenhuma empresa.
+
+## Objetivo
+
+Centralizar clientes, equipamentos, ordens de serviço, diagnósticos e acompanhamento de reparos.
+
+## MVP
+
 - Cadastro de clientes
-- Cadastro e inventário de equipamentos
+- Cadastro de equipamentos
 - Abertura de ordens de serviço
-- Diagnóstico de hardware e software
-- Controle de garantia
-- Histórico de reparos
+- Controle de status do reparo
+- Registro de diagnóstico técnico
+- Histórico de atendimento
+- Dashboard operacional
 
-## Fluxo principal
-`Cliente → Equipamento → Ordem de serviço → Diagnóstico → Reparo → Entrega`
+## Stack planejada
 
-## Próxima entrega
-API REST com Spring Boot e interface React + TypeScript.
+- Backend: Java 17, Spring Boot, Spring Data JPA e PostgreSQL
+- Frontend: React, TypeScript e Vite
+- API: REST
+- Documentação: OpenAPI/Swagger
+- Qualidade: JUnit e Mockito
+
+## Status
+
+Em desenvolvimento — modelagem inicial e preparação da API.
